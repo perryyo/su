@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Numans);
+.container {
+    background: linear-gradient( #2148b1 0%, #2148b1 50%, #f5f5f5 50%, #f5f5f5 100%);
+    height: 100vh;
+    width: 100%;
+    h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'Numans', sans-serif;
+    }
+    ,
+    h3 {
+        text-align: center;
+        font-size: x-small;
+        font-family: 'Numans', sans-serif;
+    }
+}
+
+form {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input[type=checkbox] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+.left{
+	text-align: left;
+	float: left;
+}
+
+.right{
+	text-align: right;
+	float: right;
+}
+
+.forgot_password{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #2148b1;
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.form_container {
+    padding: 20px;
+    hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #efefef
+}
+}
+
+label{
+	color: #ababab;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

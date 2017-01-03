@@ -1,5 +1,8 @@
-#app {
-    h1 {
-        color: blue;
-    }
+@import "./login/login";
+/* Pen-specific styles */
+html, body { 
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  display: initial;
 }
